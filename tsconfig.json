@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom", "es2015"],
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "strict": true,
+    "pretty": true,
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["react", "react-dom"]
+  },
+  
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.js"]
+}

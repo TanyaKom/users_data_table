@@ -1,0 +1,31 @@
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 50px;
+}
+
+.header-row {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.row {
+    display: contents;
+}
+
+.cell {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 2px #e4e6f2;
+    background-color: #fff;
+}
+.cell:hover {
+    background-color: #f1f1f1;
+}
+.filter-row .cell input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
